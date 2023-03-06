@@ -177,8 +177,8 @@ class App extends React.Component{
           <button onClick={this.manageCountdown} id="start_stop">Play</button>
           <button onClick={this.reset} id="reset">Reset</button>
         </div>
-        <audio id="beep" >
-      <source src="beep.mp3" type="audio/mpeg"/>   
+        <audio id="beep">
+      <source src="https://github.com/GmAbhishek/25-5-Clock/blob/main/src/beep.mp3?raw=true" type="audio/mpeg"/>   
     </audio>
     <p>By Gm_Abhishek</p>
       </div>
